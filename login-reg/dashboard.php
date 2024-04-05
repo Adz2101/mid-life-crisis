@@ -35,7 +35,7 @@ $user = $_SESSION["user"];
             <li><a href="#"><i class="fas fa-project-diagram"></i>Risks and Controls</a></li>
             <li><a href="#" onclick="loadCurrentRiskTrends()"><i class="fas fa-atom"></i>Current risk trends</a></li>
             <li><a href="#" onclick="viewSubmittedRisks()"><i class="fab fa-expeditedssl"></i> Submitted Risks</a></li>
-            <li><a href="#" onclick="loadPlanMitigation()"><i class="fas fa-tasks"></i> Plan Mitigation</a></li>
+            <li><a href="#" onclick="loadPlanMitigation()"><i class="fas fa-tasks"></i> View Mitigation</a></li>
             <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
         </ul> 
     </div>

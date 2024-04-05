@@ -32,7 +32,7 @@ $admin = $_SESSION["admin"];
             <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
             <li><a href="#"><i class="fas fa-bahai"></i>Overview</a></li>
             <li><a href="#" onclick="viewSubmittedRisks()"><i class="fab fa-expeditedssl"></i> Submitted Risks</a></li>
-            <li><a href="plan_mitigation.php"><i class="fas fa-tasks"></i> Plan Mitigation</a></li>
+            <!-- <li><a href="plan_mitigation.php"><i class="fas fa-tasks"></i> Plan Mitigation</a></li> -->
             <li><a href="#"><i class="fas fa-atom"></i>Reports</a></li>
             <li><a href="user-management.php"><i class="fas fa-users-cog"></i>User Management</a></li>
             <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a></li>

@@ -12,6 +12,7 @@ if (!isset($_SESSION["user"])) {
 $user_id = $_SESSION["user"]["id"];
 
 // Query the database to retrieve approved mitigation plans submitted by the logged-in user
+//$sql="SELECT * FROM message LEFT JOIN mitigation on message.m_id = mitigation.mit_id";
 $sql = "SELECT m.* FROM mitigation m JOIN message r ON m.risk_id = r.id WHERE r.user_id = ? AND r.mitigation_approved = 1";
 $stmt = mysqli_prepare($conn, $sql);
 

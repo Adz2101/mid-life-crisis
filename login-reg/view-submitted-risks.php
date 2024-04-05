@@ -46,7 +46,7 @@ if (mysqli_stmt_execute($stmt)) {
         echo "<tr><th>User</th><th>Subject</th><th>Category</th><th>Risk Mapping</th><th>Current Impact</th><th>Current Likelihood</th><th>Risk Source</th><th>Control Regulation</th><th>Control Number</th><th>Risk Scoring Method</th><th>Owner</th><th>Owner's Manager</th>";
         if ($isAdmin) {
             echo "<th>Plan Mitigation</th>"; // Only display for admin
-            echo "<th>Approve Mitigation</th>"; // New column for approve button
+            //echo "<th>Approve Mitigation</th>"; // New column for approve button
         }
         echo "</tr>";
         while ($row = mysqli_fetch_assoc($result)) {
@@ -86,7 +86,7 @@ if (mysqli_stmt_execute($stmt)) {
                 }
 
                 // Approve Mitigation button
-                echo "<td><button class='btn-approve-mitigation' data-risk-id='{$row['id']}'>Approve</button></td>";
+               // echo "<td><button class='btn-approve-mitigation' data-risk-id='{$row['id']}'>Approve</button></td>";
             }
             echo "</tr>";
         }
